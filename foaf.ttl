@@ -1,1 +1,20 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
 
+<https://raw.githubusercontent.com/IvanStoilovski/FOAF/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/IvanStoilovski/FOAF/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/IvanStoilovski/FOAF/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/IvanStoilovski/FOAF/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Ivan Stoilovski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Ivan" ;
+  foaf:family_name "Stoilovski" ;
+  foaf:nick "Ivka" ;
+  foaf:mbox_sha1sum "877810eaa54c510cc0974678e34adfc663b74b44" ;
+  foaf:phone <tel:079242366> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/> .
